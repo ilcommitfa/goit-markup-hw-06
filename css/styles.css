@@ -460,7 +460,7 @@ header {
     fill: currentColor;
 }
 
-.join-us-title {
+.footer-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -472,8 +472,12 @@ header {
 
 .footer-menu {
     display: flex;
-    gap: 70px;
     align-items: baseline;
+}
+
+.join-us {
+    margin-left: 70px;
+    margin-right: auto;
 }
 
 .project-container {
@@ -594,4 +598,58 @@ header {
 .btn-modal-close:hover,
 .btn-modal-close:focus {
     fill: var(--main-accent-color);
+}
+
+.btn-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    min-width: 200px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--main-bg-color);
+    background-color: var(--main-accent-color);
+    
+    padding: 0;
+            
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: currentColor;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.icon-subscribe {
+    fill: currentColor;
+}
+
+.email-input {
+    min-width: 358px;
+
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    
+    padding: 0;
+    margin: 0;
+    padding-left: 16px;
+}
+
+.email-input:focus {
+    border: 1px solid var(--main-accent-color);
+    
+}
+
+.field-subscribe {
+    display: flex;
+    gap: 12px;
+    min-height: 50px;
 }
